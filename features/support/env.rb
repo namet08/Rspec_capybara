@@ -17,7 +17,6 @@ Capybara.configure do |config|
   config.app_host = "https://portal.goflux.com.br"
 end
 
-
 AllureRspec.configure do |config|
   config.results_directory = "report/allure-results"
   config.clean_results_directory = true
