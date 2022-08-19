@@ -21,4 +21,4 @@ jobs:
         run: bundle install
 
       - name: Run tests
-        run: rspec Rspec_capybara/features/step_definitions/register_steps.rb
+        run: rspec features/step_definitions/register_steps.rb
